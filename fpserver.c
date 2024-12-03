@@ -220,7 +220,7 @@ void handle_client_message(int sockfd) {
                 Message msg;
                 msg.type = 3;
                 send_to_player(next_p, &msg);
-                printf("輪到 %s 行动\n", next_p->name);
+                printf("輪到 %s 行動\n", next_p->name);
             }
         }
         else {
